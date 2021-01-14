@@ -1,12 +1,19 @@
 
 /*change font */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-webfont.woff2') format('woff2'),
+         url('poppins-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*change color palette */
 body {
-    background: rgb(19, 19, 19);
-    color: #fff;
-    font-family: 'Noto Sans', sans-serif;
+    background: #562DB3;
+    color: #FFF672;
+    font-family: poppins;
 }
 
 .card {
